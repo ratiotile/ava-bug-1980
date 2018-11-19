@@ -7,6 +7,7 @@ export const to = {
   string: (raw: any) => String(raw),
   int: (raw: any) => {
     const converted = Number(raw)
+    foo()
     return converted
   },
 }
