@@ -4,7 +4,7 @@ export default {
   cache: true,
   color: true,
   compileEnhancements: true,
-  require: ['@babel/register'],
+  require: ['./babel_register_config.js'],
   babel: {
     extensions: ['js'],
   },
