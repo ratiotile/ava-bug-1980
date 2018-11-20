@@ -5,8 +5,5 @@ export default {
   color: true,
   compileEnhancements: true,
   require: ['./babel_register_config.js'],
-  babel: {
-    extensions: ['js'],
-  },
   verbose: true,
 }

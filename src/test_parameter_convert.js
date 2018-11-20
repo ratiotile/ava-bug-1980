@@ -5,3 +5,7 @@ test('int converter', t => {
   let converted = convert.to.int('foo')
   t.is(converted, 'foo')
 })
+
+test('assertion error', t => {
+  t.is(1, 2)
+})

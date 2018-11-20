@@ -1,6 +1,6 @@
 module.exports = function(api) {
   let config = {
-    sourceMaps: 'inline',
+    //sourceMaps: 'inline',
     presets: [
       '@babel/preset-flow',
       [
