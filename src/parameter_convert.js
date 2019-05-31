@@ -1,5 +1,10 @@
 // @flow
 
+class MyClass {
+  foo = 123
+  bar = ''
+}
+
 /**
  * Conversion functions
  */

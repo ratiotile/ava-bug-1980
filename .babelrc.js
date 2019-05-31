@@ -1,6 +1,5 @@
 module.exports = function(api) {
   let config = {
-    //sourceMaps: 'inline',
     presets: [
       '@babel/preset-flow',
       [
@@ -13,6 +12,9 @@ module.exports = function(api) {
         },
       ],
     ],
+    plugins: [
+      ['@babel/plugin-proposal-class-properties'],
+    ]
   }
   api.cache.forever()
   return config
